@@ -17,5 +17,5 @@ const newIngredientArray = ingredients.map(ingredient => {
 });
 
 const listRef = document.querySelector("#ingredients");
-listRef.append(...newIngredientArray)
+listRef.append(...newIngredientArray);
 

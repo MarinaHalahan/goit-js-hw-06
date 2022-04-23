@@ -8,9 +8,9 @@ const body = document.body;
 
 
 
-btnChangeColorRef.addEventListener("click", handleChangeBgColor);
+btnChangeColorRef.addEventListener("click", handleChangeBtnClick);
 
-function handleChangeBgColor() {
+function handleChangeBtnClick() {
   let color = getRandomHexColor();
   
   body.style.backgroundColor = `${color}`;

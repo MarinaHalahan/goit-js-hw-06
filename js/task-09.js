@@ -15,7 +15,7 @@ function handleChangeBtnClick() {
   
   body.style.backgroundColor = `${color}`;
   spanTextRef.textContent = `${color}`;
-  getRandomHexColor();
+  
 };
 
 
